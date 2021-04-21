@@ -10,28 +10,41 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_svg: ^0.21.0+1
+  google_fonts: ^2.0.0
 #  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/logos/
+    - assets/svg/icons/Clothes/
+    - assets/svg/icons/Code/
+    - assets/svg/icons/Communication/
+    - assets/svg/icons/Cooking/
+    - assets/svg/icons/Design/
+    - assets/svg/icons/Devices/
+    - assets/svg/icons/Electric/
+    - assets/svg/icons/Files/
+    - assets/svg/icons/Food/
+    - assets/svg/icons/General/
+    - assets/svg/icons/Home/
+    - assets/svg/icons/Layout/
+    - assets/svg/icons/Map/
+    - assets/svg/icons/Media/
+    - assets/svg/icons/Navigation/
+    - assets/svg/icons/Shopping/
+    - assets/svg/icons/Text/
+    - assets/svg/icons/Tools/
+    - assets/svg/icons/Weather/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
