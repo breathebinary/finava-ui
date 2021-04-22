@@ -12,7 +12,11 @@ dependencies:
     sdk: flutter
   flutter_svg: ^0.21.0+1
   google_fonts: ^2.0.0
-#  cupertino_icons: ^1.0.2
+  #  fl_chart: ^0.35.0
+  #  charts_flutter: ^0.10.0
+  #  use the percent_indicator to get the desired look. Would use fl_chart or charts_flutter otherwise
+  percent_indicator: ^3.0.1
+  #  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +49,7 @@ flutter:
     - assets/svg/icons/Text/
     - assets/svg/icons/Tools/
     - assets/svg/icons/Weather/
+    - assets/svg/misc/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
