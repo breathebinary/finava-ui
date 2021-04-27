@@ -1,4 +1,5 @@
 import 'package:finava/common/navbar_widget.dart';
+import 'package:finava/dashboard/info_card_widget.dart';
 import 'package:finava/dashboard/sales_stat_card_widget.dart';
 import 'package:finava/dashboard/trends_card_widget.dart';
 import 'package:finava/dashboard/weekly_sales_stat_card_widget.dart';
@@ -40,7 +41,17 @@ class _HomePageState extends State<HomePage> {
                             Flexible(child: TrendsCard()),
                           ],
                         ),
-                      )
+                      ),
+                      SizedBox(height: 24),
+                      Row(
+                        children: [
+                          Flexible(child: InfoCard()),
+                          SizedBox(width: 16),
+                          Flexible(child: InfoCard()),
+                          SizedBox(width: 16),
+                          Flexible(child: InfoCard()),
+                        ],
+                      ),
                     ],
                   ),
                 ),
